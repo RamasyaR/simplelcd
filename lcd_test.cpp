@@ -34,11 +34,14 @@ int main (void){
  
 	Lcd_Start(lcd);
 	Lcd_Clear(lcd);
-	Lcd_Set_Cursor(lcd,1,3);
-	Lcd_Print_String(lcd,"Don't worry");
+	Lcd_Set_Cursor(lcd,1,5);
+	Lcd_Print_String(lcd,"Hello");
 	while(!flag){
-		Lcd_Set_Cursor(lcd,2,4);
+		Lcd_Clear(lcd);
+		Lcd_Set_Cursor(lcd,1,3);
 		Lcd_Print_String(lcd,"Don't worry");
+		Lcd_Set_Cursor(lcd,2,4);
+		Lcd_Print_String(lcd,"Be happy!");
 		usleep(1000000);
 	}
 
