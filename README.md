@@ -8,4 +8,4 @@ This library has been tested on:
 
 To compile the example, enter this command:
 
-  g++ -fpermissive -Wall ./src/GPIOClass.cpp ./src/simplelcd.cpp lcd_test.cpp -o ./bin/outBin 
+  g++ -fpermissive -Wall ./src/GPIOClass.cpp ./src/simplelcd.cpp lcd_test.cpp -o lcd_test 
