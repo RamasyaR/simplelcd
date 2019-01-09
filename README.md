@@ -10,4 +10,5 @@ This library has been tested on:
 ```sh
 $ g++ -fpermissive -Wall ./src/GPIOClass.cpp ./src/simplelcd.cpp lcd_test.cpp -o lcd_test 
 ```
- 
+# Orange Pi One Plus pinout / Pin definition:
+![Pinout](https://github.com/RamasyaR/simplelcd/blob/master/pinoutOrangePiOnePlus.jpg)
