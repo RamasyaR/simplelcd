@@ -6,6 +6,8 @@ This library has been tested on:
 - running Armbian Stretch https://www.armbian.com/orange-pi-one-plus/
 - halherta's GPIOClass C++ class https://github.com/halherta/RaspberryPi-GPIOClass-v2
 
-To compile the example, enter this command:
-
-  g++ -fpermissive -Wall ./src/GPIOClass.cpp ./src/simplelcd.cpp lcd_test.cpp -o lcd_test 
+### To compile the example, enter this command:
+```sh
+$ g++ -fpermissive -Wall ./src/GPIOClass.cpp ./src/simplelcd.cpp lcd_test.cpp -o lcd_test 
+```
+  
