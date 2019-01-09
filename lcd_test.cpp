@@ -2,8 +2,6 @@
 #include "src/simplelcd.h"
 #include <signal.h>
 
-
-
 using namespace std;
 
 int i = 0;
@@ -11,7 +9,6 @@ volatile sig_atomic_t flag = 0;
 void my_function(int sig){ 
 	flag = 1;
 }
-
 
 int main (void){
 	signal(SIGINT, my_function);
