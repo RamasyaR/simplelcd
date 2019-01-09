@@ -33,6 +33,7 @@ int main (void){
 	Lcd_Clear(lcd);
 	Lcd_Set_Cursor(lcd,1,5);
 	Lcd_Print_String(lcd,"Hello");
+	usleep(10000000);
 	while(!flag){
 		Lcd_Clear(lcd);
 		Lcd_Set_Cursor(lcd,1,3);
