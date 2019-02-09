@@ -1,5 +1,5 @@
-# Simplelcd 16x2 LCD library 
-This is a simlpe C/C++ library that you can use to drive a 16x2 LCD display with an Orange Pi utilizing it's GPIO ports.
+# Simplelcd Class 16x2 LCD library 
+This is a simlpe C++ library that you can use to drive a 16x2 LCD display with an Orange Pi utilizing it's GPIO ports.
 
 This library has been tested on:
 - Orange Pi One Plus
